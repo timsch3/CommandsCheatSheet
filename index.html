@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commands CheatSheet</title>
+    <title>Commands</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -55,6 +55,7 @@
     </nav>
     <main>
         <!-- ==================== Category: PowerShell -->
+        <img src="assets/img/powershell_logo.svg" alt="PowerShell logo">
         <h1 id="powershell">PowerShell</h1>
         <!-- ---------- Sub-category: General -->
         <h2 id="p_general">
@@ -166,6 +167,7 @@
         </table>
         <div></div>
         <!-- ==================== Category: Git -->
+        <img src="assets/img/git_logo.svg" alt="Git logo">
         <h1 id="git">Git</h1>
         <!-- ---------- Sub-category: General -->
         <h2 id="g_general">
@@ -174,10 +176,26 @@
         <table>
             <tr>
                 <td>
+                    <code>q</code>
+                </td>
+                <td>
+                    Exit
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <code>git status</code>
                 </td>
                 <td>
-                    Show unstaged changes
+                    Show unstaged changed files
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <code>git diff</code>
+                </td>
+                <td>
+                    Show changes in files
                 </td>
             </tr>
             <tr>
@@ -194,6 +212,14 @@
                 </td>
                 <td>
                     Show past commits, each in one line
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <code>git branch -a</code>
+                </td>
+                <td>
+                    Show all branches including remote ones
                 </td>
             </tr>
         </table>
@@ -237,9 +263,49 @@
                     <code>git push</code>
                 </td>
                 <td>
-                    Push all local commits to the GitHub repository
+                    Push all local commits to the remote repository
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <code>git pull</code>
+                </td>
+                <td>
+                    Pull and integrate all remote commits to the local respository
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <code>git fetch</code>
+                </td>
+                <td>
+                    Download a remote repository without commiting to the local repository
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <code>git clone</code>
+                </td>
+                <td>
+                    Get a copy of the remote repository
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <code>git checkout [branch]</code>
+            </td>
+            <td>
+                Change the current branch
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <code>git merge</code>
+            </td>
+            <td>
+                Merge the remote and the local commits
+            </td>
+        </tr>
         </table>
     </main>
 </body>

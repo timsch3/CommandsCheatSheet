@@ -70,26 +70,33 @@ main {
     padding: 20px 10px;
     margin-left: 200px;
 }
-h1 {
+main img {
+    display: inline-block;
+    width: 30px;
+    padding-right: 10px;
+    vertical-align: text-bottom;
+}
+main h1 {
+    display: inline-block;
     padding: 30px 0;
 }
-table {
+main table {
     min-width: 90%;
     border-spacing: 0 10px;
     line-height: 2em;
     border-spacing: 0 15px;
     margin: 10px 0 30px 0;
 }
-tr td:first-of-type {
+main tr td:first-of-type {
     width: 30%;
 }
-tr td:last-of-type {
+main tr td:last-of-type {
     padding-left: 10px;
 }
-td {
+main td {
     border-bottom: 1px solid #222;
 }
-code {
+main code {
     display: inline-block;
     padding: 0 10px;
     font-family: Lotuscoder, monospace;
