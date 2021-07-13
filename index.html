@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commands</title>
+    <title>Commands CheatSheet</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -22,7 +22,7 @@
 -->
     <!-- ==================== NAVIGATION -->
     <nav>
-        <p>COMMANDS</p>
+        <p>COMMANDS:</p>
         <div>
             <ul>
             <li>
@@ -40,7 +40,13 @@
                 <a href="#git">Git</a>
                 <ul>
                     <li>
+                        <a href="#g_general">General</a>
+                    </li>
+                    <li>
                         <a href="#g_init">Initialization</a>
+                    </li>
+                    <li>
+                        <a href="#g_sync">Synchronization</a>
                     </li>
                 </ul>
             </li>
@@ -162,6 +168,28 @@
         <div></div>
         <!-- ==================== Category: Git -->
         <h1 id="git">Git</h1>
+        <!-- ---------- Sub-category: General -->
+        <h2 id="g_general">
+            General
+        </h2>
+        <table>
+            <tr>
+                <td>
+                    <code>git status</code>
+                </td>
+                <td>
+                    Show unstaged changes
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <code>git log</code>
+                </td>
+                <td>
+                    Show past commits
+                </td>
+            </tr>
+        </table>
         <!-- ---------- Sub-category: Initialization -->
         <h2 id="g_init">
             Initialization
@@ -172,7 +200,7 @@
                     <code>git init</code>
                 </td>
                 <td>
-                    Initialize and add the hidden .git folder
+                    Create local repository (hidden .git folder)
                 </td>
             </tr>
             <tr>
@@ -191,6 +219,12 @@
                     Commit content with the message "init"
                 </td>
             </tr>
+        </table>
+        <!-- ---------- Sub-category: Synchronization -->
+        <h2 id="g_sync">
+            Synchronization
+        </h2>
+        <table>
             <tr>
                 <td>
                     <code>git push</code>
