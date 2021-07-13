@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Lotuscoder;
+    src: url(../fonts/Lotuscoder.ttf);
+}
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+/* ==================== General styling */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    font-family: OpenSans-Light, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* ==================== Navigation */
+nav > p {
+    position: fixed;
+    min-width: 162px;
+    padding: 5px 10px;
+    text-align: center;
+    color: #999;
+    letter-spacing: 1.5px;
+    font-size: 0.65em;
+    font-weight: bold;
+    border-bottom: 3px solid #1b1b1b;
+}
+nav > div {
+    position: fixed;
+    height: 100vh;
+    max-width: 180px;
+    margin-top: 27px;
+    padding: 5px 0;
+    line-height: 2em;
+    border-right: 3px solid #1b1b1b;
+    overflow: auto;
+}
+/* ---------- Links */
+a {
+    color: #bbb;
+}
+a:hover  {
+    background-color: #222;
+    color: #fff;
+}
+nav a {
+    display: block;
+    max-width: 100%;
+    padding: 0 40px 0 20px;
+}
+nav > div > ul > li ul a {
+    padding-left: 30px;
+}
+/* ---------- Category titles */
+nav > div > ul > li {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+/* ---------- Sub-categories reset */
+nav > div > ul > li ul {
+    font-weight: normal;
+    font-size: initial;
+}
+/* ==================== Page layout */
+main {
+    padding: 20px 10px;
+    margin-left: 200px;
+}
+h1 {
+    padding-bottom: 30px;
+}
+h2 {
+    padding-bottom: 20px;
+}
+table {
+    min-width: 90%;
+    border-spacing: 0 10px;
+    line-height: 2em;
+    border-spacing: 0 15px;
+}
+tr td:first-of-type {
+    width: 30%;
+}
+tr td:last-of-type {
+    padding-left: 10px;
+}
+td {
+    border-bottom: 1px solid #222;
+}
+code {
+    display: inline-block;
+    padding: 0 10px;
+    font-family: Lotuscoder, monospace;
+    white-space: nowrap;
+    background-color: #222;
+}
+div { /* Only acts as a spacer */
+    padding-top: 40px;
+}
+/* ---------- Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #222; 
+}
+::-webkit-scrollbar-thumb {
+    background: #444; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #666; 
+}
