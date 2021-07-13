@@ -71,16 +71,14 @@ main {
     margin-left: 200px;
 }
 h1 {
-    padding-bottom: 30px;
-}
-h2 {
-    padding-bottom: 20px;
+    padding: 30px 0;
 }
 table {
     min-width: 90%;
     border-spacing: 0 10px;
     line-height: 2em;
     border-spacing: 0 15px;
+    margin: 10px 0 30px 0;
 }
 tr td:first-of-type {
     width: 30%;
@@ -97,9 +95,6 @@ code {
     font-family: Lotuscoder, monospace;
     white-space: nowrap;
     background-color: #222;
-}
-div { /* Only acts as a spacer */
-    padding-top: 40px;
 }
 /* ---------- Custom scrollbar */
 ::-webkit-scrollbar {
