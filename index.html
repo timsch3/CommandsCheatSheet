@@ -25,147 +25,35 @@
         <p>COMMANDS</p>
         <div>
             <ul>
-            <li>
-                <a href="#powershell">PowerShell</a>
-                <ul>
-                    <li>
-                        <a href="#p_general">General</a>
-                    </li>
-                    <li>
-                        <a href="#p_filestructure">File structure</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#git">Git</a>
-                <ul>
-                    <li>
-                        <a href="#g_general">General</a>
-                    </li>
-                    <li>
-                        <a href="#g_init">Initialization</a>
-                    </li>
-                    <li>
-                        <a href="#g_sync">Synchronization</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+                <li>
+                    <a href="#git">Git</a>
+                    <ul>
+                        <li>
+                            <a href="#g_general">General</a>
+                        </li>
+                        <li>
+                            <a href="#g_init">Initialization</a>
+                        </li>
+                        <li>
+                            <a href="#g_sync">Synchronization</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#powershell">PowerShell</a>
+                    <ul>
+                        <li>
+                            <a href="#p_general">General</a>
+                        </li>
+                        <li>
+                            <a href="#p_filestructure">File structure</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </nav>
     <main>
-        <!-- ==================== Category: PowerShell -->
-        <img src="assets/img/powershell_logo.svg" alt="PowerShell logo">
-        <h1 id="powershell">PowerShell</h1>
-        <!-- ---------- Sub-category: General -->
-        <h2 id="p_general">
-            General
-        </h2>
-        <table>
-            <tr>
-                <td>
-                    <code>clear</code>
-                </td>
-                <td>
-                    Clear the display
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <code>Ctrl + C</code>
-                </td>
-                <td>
-                    Exit
-                </td>
-            </tr>
-        </table>
-        <!-- ---------- Sub-category: File structure -->
-        <h2 id="p_filestructure">
-            File structure
-        </h2>
-        <table>
-            <tr>
-                <td>
-                    <code>ls</code>
-                </td>
-                <td>
-                    List the content of the working directory
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <code>cd</code>
-                </td>
-                <td>
-                    Change the working directory
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <code>code . -r</code>
-                </td>
-                <td>
-                    Open working directory in current VSCode window
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <code>md</code>
-                </td>
-                <td>
-                    Create (make) a directory
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <code>ni</code>
-                </td>
-                <td>
-                    Create a file (new item)
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <code>gc</code>
-                </td>
-                <td>
-                    Show (get) the content of a file
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <code>gc -head n</code>
-                </td>
-                <td>
-                    Show (get) the n first lines of content of a file
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <code>gc -tail n</code>
-                </td>
-                <td>
-                    Show (get) the n last lines of content of a file
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <code>mv</code>
-                </td>
-                <td>
-                    Move or rename a file or directory
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <code>rm</code>
-                </td>
-                <td>
-                    Remove a file or directory
-                </td>
-            </tr>
-        </table>
-        <div></div>
         <!-- ==================== Category: Git -->
         <img src="assets/img/git_logo.svg" alt="Git logo">
         <h1 id="git">Git</h1>
@@ -276,6 +164,14 @@
             </tr>
             <tr>
                 <td>
+                    <code>git push --force</code>
+                </td>
+                <td>
+                    Force pushing local commits instead of needing to pull first.
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <code>git pull</code>
                 </td>
                 <td>
@@ -315,6 +211,117 @@
             </td>
         </tr>
         </table>
+                <!-- ==================== Category: PowerShell -->
+                <img src="assets/img/powershell_logo.svg" alt="PowerShell logo">
+                <h1 id="powershell">PowerShell</h1>
+                <!-- ---------- Sub-category: General -->
+                <h2 id="p_general">
+                    General
+                </h2>
+                <table>
+                    <tr>
+                        <td>
+                            <code>clear</code>
+                        </td>
+                        <td>
+                            Clear the display
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>Ctrl + C</code>
+                        </td>
+                        <td>
+                            Exit
+                        </td>
+                    </tr>
+                </table>
+                <!-- ---------- Sub-category: File structure -->
+                <h2 id="p_filestructure">
+                    File structure
+                </h2>
+                <table>
+                    <tr>
+                        <td>
+                            <code>ls</code>
+                        </td>
+                        <td>
+                            List the content of the working directory
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>cd</code>
+                        </td>
+                        <td>
+                            Change the working directory
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>code . -r</code>
+                        </td>
+                        <td>
+                            Open working directory in current VSCode window
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>md</code>
+                        </td>
+                        <td>
+                            Create (make) a directory
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>ni</code>
+                        </td>
+                        <td>
+                            Create a file (new item)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>gc</code>
+                        </td>
+                        <td>
+                            Show (get) the content of a file
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>gc -head n</code>
+                        </td>
+                        <td>
+                            Show (get) the n first lines of content of a file
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>gc -tail n</code>
+                        </td>
+                        <td>
+                            Show (get) the n last lines of content of a file
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>mv</code>
+                        </td>
+                        <td>
+                            Move or rename a file or directory
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>rm</code>
+                        </td>
+                        <td>
+                            Remove a file or directory
+                        </td>
+                    </tr>
+                </table>
     </main>
 </body>
 <!-- Empty entry for copy & paste:
@@ -327,5 +334,4 @@
         </td>
     </tr>
 -->
-
 </html>
